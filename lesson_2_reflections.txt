@@ -1,15 +1,45 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    I think that git create all the informtion is needed to manage a repository,
+    I think that git create all the information is needed to manage a repository,
     such as the .git file.
 
-How is the stagging area different from the working directory and the 
+How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 
     The working directory is all our files, because we not always want to have
-    all files in our directory that is why we need something different. And
+    all files in our repository that is why we need something different. And
     the repository are our snapshots, but is necessary something in between to
-    help us to select wich files are going to be commited, that is the staging
+    help us to select which files are going to be committed, that is the staging
     area.
 
- 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    You can check with git diff --staged the differences between the staging
+    area and the HEAD, so you verify before a commit what is going to be 
+    committed, and that is different to files that changed.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How branches help?
+
+    when you want to experiment with something, make a big change that could
+    not work or is independent to the current work, or maybe give code to 
+    someone that want change something so you can work without interfering each
+    other.
+
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams help you to understand the structure and not get confused with all 
+    differents pointers, and see which branches have which commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    When two branches are merged they joined, and became on, we represented it
+    in that way to represent that there are many sources for that branch.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+    pros: it is easy, save time
+    cons: it could make a mistake, there are some cases that couldn't be resolve
+    so sometimes you need to resolve it by yourself.
