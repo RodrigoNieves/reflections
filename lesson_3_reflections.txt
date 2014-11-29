@@ -27,3 +27,11 @@ stored locally?
 
     You can compare you version with the version of the remote and check each 
     one before merging.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+    Contacting someone by email, sending my code and explaining what is
+    different. That is going to be harder, because is not easy to identify
+    what is different and if the change is going to be conflicting with the
+    main code.
