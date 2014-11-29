@@ -35,3 +35,12 @@ and what would be harder?
     different. That is going to be harder, because is not easy to identify
     what is different and if the change is going to be conflicting with the
     main code.
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+    You would want to make a change in a separate branch to experiment with a
+    new feature or asking for comments and you don't want to modify the master
+    branch, if you make a separate branch then you can work without worrying
+    about breaking something. If you want to make a change directly to the
+    master branch that would be faster but you need to be careful.
