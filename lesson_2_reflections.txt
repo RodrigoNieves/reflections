@@ -8,9 +8,9 @@ repository? What value do you think it offers?
 
     The working directory is all our files, because we not always want to have
     all files in our repository that is why we need something different. And
-    the repository are our snapshots, but is necessary something in between to
-    help us to select which files are going to be committed, that is the staging
-    area.
+    the repository is the collection of our snapshots, but is necessary 
+    something in between to help us to select which files are going to be 
+    committed, that is the staging area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -35,7 +35,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-    When two branches are merged they joined, and became on, we represented it
+    When two branches are merged they joined, and became one, we represented it
     in that way to represent that there are many sources for that branch.
 
 What are the pros and cons of Git's automatic merging vs always doing merges manually?
